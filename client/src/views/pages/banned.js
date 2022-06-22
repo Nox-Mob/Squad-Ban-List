@@ -327,7 +327,7 @@ function GettingUnbannedFromTheSquadCommunityBanList(props) {
           <p>
             Squad servers may opt to use a Squad Ban List export ban list to protect their
             community. If you have been kicked from a server with a reason relating to the Squad
-            Community Ban List then it means that you have probably met the criteria to be listed on
+            Ban List then it means that you have probably met the criteria to be listed on
             one of these export ban lists. Below we will explain these criteria and explain how you
             can attempt to get removed from our export ban lists.
           </p>
@@ -348,7 +348,7 @@ function GettingUnbannedFromTheSquadCommunityBanList(props) {
           </p>
           <h6>Getting Unbanned from the Squad Ban List</h6>
           <p>
-            There are a number of different ways of getting unbanned from the Squad Community Ban
+            There are a number of different ways of getting unbanned from the Squad Ban
             List:
           </p>
           <ul className="font-weight-light">
@@ -362,7 +362,7 @@ function GettingUnbannedFromTheSquadCommunityBanList(props) {
               known as Battlemetrics.
             </li>
             <li>
-              Play on another server. Only a small number of Squad servers use the Squad Community
+              Play on another server. Only a small number of Squad servers use the Squad
               Ban List and therefore there should be a wide range of others servers that you can
               play on.
             </li>
@@ -514,7 +514,7 @@ export default function (props) {
               </div>
               <h6 className="text-warning text-uppercase">I'm banned, what now?</h6>
               <p className="description mt-2">
-                Get information on how to get unlisted from or unbanned by the Squad Community Ban
+                Get information on how to get unlisted from or unbanned by the Squad Ban
                 List.
               </p>
             </CardBody>

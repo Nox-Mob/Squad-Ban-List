@@ -40,7 +40,7 @@ const sections = [
         question: 'What are "reputation points"?',
         answer: (
           <>
-            "Points" is a term you will frequently hear in reference to the Squad Community Ban
+            "Points" is a term you will frequently hear in reference to the Squad Ban
             List. Points are used to represent how bad a reputation a player has based on bans they
             have on our partner organisation's ban lists. By default, active and expired bans will
             contribute 3 and 1 points respectively. Only one active ban per ban list is counted.

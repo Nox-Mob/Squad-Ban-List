@@ -72,7 +72,7 @@ export default function () {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    sbl on GitHub
+                    SBL on GitHub
                   </NavLink>
                 </NavItem>
                 <NavItem>

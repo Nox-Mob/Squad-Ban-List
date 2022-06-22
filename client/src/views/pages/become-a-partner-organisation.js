@@ -18,7 +18,7 @@ export default function () {
               <h6 className="text-success text-uppercase">Become a Partner Organisation</h6>
               <p className="description mt-2">
                 Join the fight against harmful players by contributing ban information to the Squad
-                Community Ban List!
+                Ban List!
               </p>
             </CardBody>
             <CardBody>

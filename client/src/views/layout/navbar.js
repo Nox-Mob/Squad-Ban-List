@@ -291,7 +291,7 @@ class DemoNavbar extends React.Component {
                             <h6 className="heading text-warning mb-md-1">I'm banned, what now?</h6>
                             <p className="description d-none d-md-inline-block mb-0">
                               Get information on how to get unlisted from or unbanned by the Squad
-                              Community Ban List.
+                              Ban List.
                             </p>
                           </Media>
                         </Media>

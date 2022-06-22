@@ -514,17 +514,17 @@ export default function () {
                 </div>
               </div>
             </Col>
-            {/* <Col md="4" className="mb-5">
+            <Col md="4" className="mb-5">
               <div className="px-4">
                 <div className="pt-4 text-center">
                   <h5 className="title">
                     <span className="d-block mb-1">Tommy</span>
-                    <small className="h6">Developer</small>
+                    <small className="h6">Previous Developer</small>
                   </h5>
                 </div>
               </div>
             </Col>
-            <Col md="4" className="mb-5">
+            {/*<Col md="4" className="mb-5">
               <div className="px-4">
                 <div className="pt-4 text-center">
                   <h5 className="title">
@@ -533,7 +533,7 @@ export default function () {
                   </h5>
                 </div>
               </div>
-            </Col> */}
+        </Col>*/}
           </Row>
           <Row>
             <Card className="bg-gradient-info shadow-lg border-0">
