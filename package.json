@@ -1,7 +1,7 @@
 {
-  "name": "Squad-Community-Ban-List",
+  "name": "squad-ban-list",
   "version": "2.0.0",
-  "repository": "https://github.com/Thomas-Smyth/Squad-Community-Ban-List.git",
+  "repository": "https://github.com/CodeWithBryan/Squad-Ban-List.git",
   "author": "Thomas Smyth <https://github.com/Thomas-Smyth>",
   "license": "MIT",
   "private": true,

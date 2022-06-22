@@ -9,8 +9,10 @@ const reasons = {
   'Wasting Assets': /destroying assets|wast(e|ing)|taxi|israf/i,
   Ghosting: /ghosting/i,
 
-  Toxic: /disrespect|flam(e|ing)|harass|insult|language|offensive|rude|toxic|sayg(i|ı)s(i|ı)z|hakaret|irrespect|respektlos|beleidigung/i,
-  'Abusive Language/Hate Speech': /abusive|bigot|derogatory|discriminat|hate ?spe(e|a)ch|homophobi(c|a)|nazi|racial|racism|racist|sexism|sexist|(küfür|kufur)|mal(é|e)diction|種族主義|fluchen/i,
+  Toxic:
+    /disrespect|flam(e|ing)|harass|insult|language|offensive|rude|toxic|sayg(i|ı)s(i|ı)z|hakaret|irrespect|respektlos|beleidigung/i,
+  'Abusive Language/Hate Speech':
+    /abusive|bigot|derogatory|discriminat|hate ?spe(e|a)ch|homophobi(c|a)|nazi|racial|racism|racist|sexism|sexist|(küfür|kufur)|mal(é|e)diction|種族主義|fluchen/i,
 
   AFK: /afk|unassigned/i,
   'Breaking Seeding Rules': /seed/i,

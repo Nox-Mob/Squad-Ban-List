@@ -255,9 +255,9 @@ function GettingUnlistedFromTheSquadCommunityBanList(props) {
         <Col>
           <h3 className="text-center">Getting unlisted from the Squad Community Ban List</h3>
           <p>
-            If a player has been listed on the Squad Community Ban List's website, it does not necessarily mean that
-            they have been banned by the Squad Community Ban List. It only means that we have imported a ban against
-            them from one of our partner organisations.
+            If a player has been listed on the Squad Community Ban List's website, it does not
+            necessarily mean that they have been banned by the Squad Community Ban List. It only
+            means that we have imported a ban against them from one of our partner organisations.
           </p>
           <p>
             As previously mentioned, the Squad Community Ban List only shares facts regarding
@@ -265,7 +265,8 @@ function GettingUnlistedFromTheSquadCommunityBanList(props) {
             only ever remove players/bans we share when our partner organisations remove them from
             their ban lists. As it is unlikely that partner organisation will delete the bans from
             your history it is unlikely that you will be unlisted from the Squad Community Ban List.
-            However, partner organisations may agree to turn some of your active bans to expired bans.
+            However, partner organisations may agree to turn some of your active bans to expired
+            bans.
           </p>
           {props.steamUser && props.steamUser.bans.length === 0 && (
             <>
@@ -336,8 +337,8 @@ function GettingUnbannedFromTheSquadCommunityBanList(props) {
             creating an export ban list. Bans listed on our website will contribute a number of
             points which can be configured to be different depending on whether they were are active
             or expired, their age and who's ban list they belong to. Once the total number of points
-            a player has exceeds the configurable threshold, they will be added to the export ban list
-            and banned from the server as a result.
+            a player has exceeds the configurable threshold, they will be added to the export ban
+            list and banned from the server as a result.
           </p>
           <p>
             Consider the following example using our default points. Bob has 2 active bans that
@@ -357,8 +358,8 @@ function GettingUnbannedFromTheSquadCommunityBanList(props) {
             </li>
             <li>
               Ask the server you wish to play on to make an exception for you. Some servers have the
-              ability to do this if they are importing one of our export ban lists via an admin tool known as
-              Battlemetrics.
+              ability to do this if they are importing one of our export ban lists via an admin tool
+              known as Battlemetrics.
             </li>
             <li>
               Play on another server. Only a small number of Squad servers use the Squad Community
@@ -475,9 +476,10 @@ function FurtherHelp(props) {
         <Col>
           <h3 className="text-center">Further Help</h3>
           <p>
-            Thank you <strong>{props.steamUser?.name || ''}</strong> for taking the time to read through the information
-            we have provided. If you require further assistance, please read our <Link to="/faq">FAQ</Link> and then
-            seek further help on our <a href={DISCORD_INVITE}>Discord</a>.
+            Thank you <strong>{props.steamUser?.name || ''}</strong> for taking the time to read
+            through the information we have provided. If you require further assistance, please read
+            our <Link to="/faq">FAQ</Link> and then seek further help on our{' '}
+            <a href={DISCORD_INVITE}>Discord</a>.
           </p>
         </Col>
       </Row>
@@ -512,7 +514,8 @@ export default function (props) {
               </div>
               <h6 className="text-warning text-uppercase">I'm banned, what now?</h6>
               <p className="description mt-2">
-                Get information on how to get unlisted from or unbanned by the Squad Community Ban List.
+                Get information on how to get unlisted from or unbanned by the Squad Community Ban
+                List.
               </p>
             </CardBody>
             <CardBody>
