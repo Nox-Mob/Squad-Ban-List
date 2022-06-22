@@ -7,7 +7,7 @@ export default function (url, options = {}) {
     new Webhook(url, { retryOnLimit: false })
       .setUsername('Squad Ban List')
       .setAvatar(
-        'https://raw.githubusercontent.com/Thomas-Smyth/Squad-Community-Ban-List/v3/client/src/assets/img/brand/sbl-logo-square.png'
+        'https://github.com/CodeWithBryan/Squad-Ban-List/blob/master/client/src/assets/img/brand/sbl-logo-square.png?raw=true'
       ),
     new MessageBuilder()
       .setColor(options.color || '#ffc40b')

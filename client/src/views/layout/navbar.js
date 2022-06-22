@@ -246,8 +246,8 @@ class DemoNavbar extends React.Component {
                           <Media body className="ml-3">
                             <h6 className="heading text-github mb-md-1">GitHub</h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              The Squad Ban List is an open source project anyone can
-                              contribute to. Find out more on our GitHub!
+                              The Squad Ban List is an open source project anyone can contribute to.
+                              Find out more on our GitHub!
                             </p>
                           </Media>
                         </Media>

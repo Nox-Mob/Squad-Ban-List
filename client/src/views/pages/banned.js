@@ -163,17 +163,17 @@ function Foreword(props) {
             potentially banned by the Squad Ban List.
           </p>
           <p>
-            The Squad Ban List is dedicated to helping create a healthy Squad community
-            that everyone can enjoy, including players that were previously harmful to the community
-            and have since reformed. Therefore, we are keen to assist players in being able to
-            access the Squad community without the Squad Ban List limiting where they can
-            and cannot play. However, there are limits in what we can do to assist these players due
-            to our strict operating procedures.
+            The Squad Ban List is dedicated to helping create a healthy Squad community that
+            everyone can enjoy, including players that were previously harmful to the community and
+            have since reformed. Therefore, we are keen to assist players in being able to access
+            the Squad community without the Squad Ban List limiting where they can and cannot play.
+            However, there are limits in what we can do to assist these players due to our strict
+            operating procedures.
           </p>
           <p>
             The information provided on the following pages will give you more information on the
-            Squad Ban List as well as information on how you can go about getting yourself
-            unlisted from and unbanned by the Squad Ban List.
+            Squad Ban List as well as information on how you can go about getting yourself unlisted
+            from and unbanned by the Squad Ban List.
           </p>
         </Col>
       </Row>
@@ -203,27 +203,26 @@ function WhatIsTheSquadCommunityBanList(props) {
           <h3 className="text-center">About the Squad Ban List</h3>
           <h6>Introduction</h6>
           <p>
-            The Squad Ban List is a community-led project that aims to protect the Squad
-            community's integrity through collaboration and information sharing. It is{' '}
-            <strong>not</strong> affiliated with Offworld Industries, the creators of Squad, and
-            they have little to no influence in regards to how the Squad Ban List is
-            operated.
+            The Squad Ban List is a community-led project that aims to protect the Squad community's
+            integrity through collaboration and information sharing. It is <strong>not</strong>{' '}
+            affiliated with Offworld Industries, the creators of Squad, and they have little to no
+            influence in regards to how the Squad Ban List is operated.
           </p>
           <h6>How Does It Work?</h6>
           <p>
-            The Squad Ban List works with a number of "partner organisations", who are
-            Squad communities licensed to operate Squad servers by Offworld Industries, who provide
-            us with access to their ban lists. At regular intervals, our fully automated system
+            The Squad Ban List works with a number of "partner organisations", who are Squad
+            communities licensed to operate Squad servers by Offworld Industries, who provide us
+            with access to their ban lists. At regular intervals, our fully automated system
             downloads a copy of the bans on their ban lists and stores them in our database. We then
             provide others with access to the data in our database via this website, Discord bots
             and other channels.
           </p>
           <h6>Only Facts!</h6>
           <p>
-            The Squad Ban List only shares facts regarding players based on the bans we
-            import from our partner organisations' ban lists and we do not make or share opinions
-            based on the bans we import. Therefore, we will always share the bans we import to our
-            users regardless of whether we think the ban is or isn't valid and will only ever remove
+            The Squad Ban List only shares facts regarding players based on the bans we import from
+            our partner organisations' ban lists and we do not make or share opinions based on the
+            bans we import. Therefore, we will always share the bans we import to our users
+            regardless of whether we think the ban is or isn't valid and will only ever remove
             players/bans we share when our partner organisations remove them from their ban lists.
             As a result, there is not much we can do to assist players who are listed or who have
             been banned by our system.
@@ -255,25 +254,24 @@ function GettingUnlistedFromTheSquadCommunityBanList(props) {
         <Col>
           <h3 className="text-center">Getting unlisted from the Squad Ban List</h3>
           <p>
-            If a player has been listed on the Squad Ban List's website, it does not
-            necessarily mean that they have been banned by the Squad Ban List. It only
-            means that we have imported a ban against them from one of our partner organisations.
+            If a player has been listed on the Squad Ban List's website, it does not necessarily
+            mean that they have been banned by the Squad Ban List. It only means that we have
+            imported a ban against them from one of our partner organisations.
           </p>
           <p>
-            As previously mentioned, the Squad Ban List only shares facts regarding
-            players based on the bans we import from our partner organisations' ban lists and will
-            only ever remove players/bans we share when our partner organisations remove them from
-            their ban lists. As it is unlikely that partner organisation will delete the bans from
-            your history it is unlikely that you will be unlisted from the Squad Ban List.
-            However, partner organisations may agree to turn some of your active bans to expired
-            bans.
+            As previously mentioned, the Squad Ban List only shares facts regarding players based on
+            the bans we import from our partner organisations' ban lists and will only ever remove
+            players/bans we share when our partner organisations remove them from their ban lists.
+            As it is unlikely that partner organisation will delete the bans from your history it is
+            unlikely that you will be unlisted from the Squad Ban List. However, partner
+            organisations may agree to turn some of your active bans to expired bans.
           </p>
           {props.steamUser && props.steamUser.bans.length === 0 && (
             <>
               <h6>Partner organisations to Contact</h6>
               <p>
-                Fortunately, you are not listed on the Squad Ban List and therefore do not
-                need to contact any partner organisations.
+                Fortunately, you are not listed on the Squad Ban List and therefore do not need to
+                contact any partner organisations.
               </p>
             </>
           )}
@@ -281,9 +279,8 @@ function GettingUnlistedFromTheSquadCommunityBanList(props) {
             <>
               <h6>Partner organisations to Contact</h6>
               <p>
-                To be unlisted from the Squad Ban List you should contact the following
-                partner organisations. You may click their names to get a link to their Discord
-                server.
+                To be unlisted from the Squad Ban List you should contact the following partner
+                organisations. You may click their names to get a link to their Discord server.
               </p>
               <ul>
                 {[
@@ -446,8 +443,8 @@ function ReportPartnerOrganisations(props) {
           <p>
             Our system has methods to prevent a single partner organisation abusing our system to
             ban you from other servers. However, if you believe that a partner organisation has
-            found a way to abuse the system you may report your concerns to MrBoolean, our project lead,
-            who can be found via our <a href={DISCORD_INVITE}>Discord</a>.
+            found a way to abuse the system you may report your concerns to MrBoolean, our project
+            lead, who can be found via our <a href={DISCORD_INVITE}>Discord</a>.
           </p>
         </Col>
       </Row>

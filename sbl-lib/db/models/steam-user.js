@@ -33,7 +33,7 @@ export default withRelayPagination({ primaryKeyField: 'id' })(
       defaultValue: null
     },
 
-    issblUser: {
+    isSBLUser: {
       type: DataTypes.BOOLEAN,
       defaultValue: false
     },

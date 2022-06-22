@@ -540,7 +540,7 @@ export default function () {
               <div className="p-5">
                 <Row className="align-items-center">
                   <Col lg="8">
-                    <h4 className="text-white">Also by Us... SquadJS</h4>
+                    <h4 className="text-white">An honerable mention... SquadJS</h4>
                     <p className="text-white mt-3">
                       SquadJS is an open source framework, designed for Squad servers, that aims to
                       make communicating with Squad servers simple. Unlike other tools, that only
