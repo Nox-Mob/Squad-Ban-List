@@ -16,7 +16,7 @@ export default {
       if (args.discordWebhook) await testDiscordWebhook(args.discordWebhook);
 
       // Create export ban list.
-      const exportBanLsit = await ExportBanList.create({
+      const exportBanList = await ExportBanList.create({
         name: args.name,
         server: args.server,
         type: args.type,
@@ -28,9 +28,9 @@ export default {
         owner: context.user.id
       });
 
-      if (exportBanLsit.type === 'battlemetrics') await exportBanLsit.createBattlemetricsBanList();
+      if (exportBanList.type === 'battlemetrics') await exportBanList.createBattlemetricsBanList();
 
-      return exportBanLsit;
+      return exportBanList;
     },
 
     updateExportBanList: async (parent, args, context) => {
