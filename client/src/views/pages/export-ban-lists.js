@@ -138,7 +138,7 @@ export default function () {
                                       server:
                                     </p>
                                     <code>
-                                      {`${window.location.protocol}//${window.location.hostname}/export/${exportBanList.id}`}
+                                      {`${window.location.protocol}//${window.location.hostname}/api/export/${exportBanList.id}`}
                                     </code>
                                     <p className="mt-2">
                                       For information on how to achieve this, please refer to the{' '}
