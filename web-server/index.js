@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { connect } from 'scbl-lib/db';
 
 import server from './src/app.js';

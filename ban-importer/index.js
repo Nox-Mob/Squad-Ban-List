@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { connect, disconnect } from 'scbl-lib/db';
 
 import Core from './src/core.js';
