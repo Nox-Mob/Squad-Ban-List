@@ -1,5 +1,6 @@
 // Web
 const HOST = process.env.HOST || 'http://localhost';
+const API_SERVER = process.env.REACT_APP_API || 'http://localhost';
 const LOCALSTORAGE_VERSION = 'v1'; // Change this to wipe clients local storage
 
 const JWT_AUTH = {
@@ -14,15 +15,16 @@ const JWT_AUTH = {
 const BATTLEMETRICS_API_KEY = process.env.BATTLEMETRICS_API_KEY;
 const BATTLEMETRICS_API_RESERVIOR = process.env.BATTLEMETRICS_API_RESERVIOR || 10;
 
-const BATTLEMETRICS_ORGANIZATION = '14987';
+const BATTLEMETRICS_ORGANIZATION = '57006';
 
 const STEAM_API_KEY = process.env.STEAM_API_KEY;
 
 // Other constants
-const DISCORD_INVITE = 'https://discord.gg/DjrpPuw';
+const DISCORD_INVITE = 'https://discord.gg/DnkPxJ2MTS';
 
 export {
   HOST,
+  API_SERVER,
   BATTLEMETRICS_API_KEY,
   BATTLEMETRICS_API_RESERVIOR,
   BATTLEMETRICS_ORGANIZATION,

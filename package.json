@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "eslint --fix . && prettier --write \"./**/*.js\"",
     "importer": "node ban-importer/index.js",
-    "build-web": "cd client && npm run build",
+    "build": "cd client && npm run build",
     "start-web": "cross-env NODE_ENV=production node web-server/index.js",
     "dev": "concurrently -n \"API,CLIENT\" \"nodemon --ignore './client/' web-server/index.js\" \"cd client && npm run start\""
   },

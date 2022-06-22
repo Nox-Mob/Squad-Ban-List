@@ -3,7 +3,7 @@ import { sequelize } from 'scbl-lib/db';
 import { ExportBan, ExportBanList, SteamUser } from 'scbl-lib/db/models';
 import { Op } from 'scbl-lib/db/sequelize';
 import { createDiscordWebhookMessage, Logger } from 'scbl-lib/utils';
-import { HOST } from 'scbl-lib/config';
+import { API_SERVER } from 'scbl-lib/config';
 
 const UPDATE_STEAM_USER_INFO_REFRESH_INTERVAL = 7 * 24 * 60 * 60 * 1000;
 const UPDATE_STEAM_USER_INFO_BATCH_SIZE = 10;
@@ -240,7 +240,7 @@ export default class Core {
 
     message.setTitle(`${exportBan.SteamUser.name} has been added to your export ban list.`);
     message.setDescription(
-      `[${exportBan.SteamUser.name}](${HOST}/search/${exportBan.SteamUser.id}) has reached the threshold required to be added to your export ban list named "${exportBan.ExportBanList.name}".`
+      `[${exportBan.SteamUser.name}](${API_SERVER}/search/${exportBan.SteamUser.id}) has reached the threshold required to be added to your export ban list named "${exportBan.ExportBanList.name}".`
     );
     message.setThumbnail(exportBan.SteamUser.avatarMedium);
 
@@ -267,7 +267,7 @@ export default class Core {
 
     message.setTitle(`${exportBan.SteamUser.name} has been removed from your export ban list.`);
     message.setDescription(
-      `[${exportBan.SteamUser.name}](${HOST}/search/${exportBan.SteamUser.id}) no longer meets the threshold required to be on your export ban list named "${exportBan.ExportBanList.name}" so has been removed.`
+      `[${exportBan.SteamUser.name}](${API_SERVER}/search/${exportBan.SteamUser.id}) no longer meets the threshold required to be on your export ban list named "${exportBan.ExportBanList.name}" so has been removed.`
     );
     message.setThumbnail(exportBan.SteamUser.avatarMedium);
 

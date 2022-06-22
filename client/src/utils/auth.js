@@ -44,11 +44,7 @@ class Auth {
   async attemptAuth(queryString) {
     this.flush();
 
-    console.log('attempt auth');
-
-    const response = await httpClient.get('/auth/steam/return' + queryString);
-
-    console.log(response);
+    const response = await httpClient.get('/api/auth/steam/return' + queryString);
 
     this.isLoggedIn = true;
     this.jwtToken = response.data.token;

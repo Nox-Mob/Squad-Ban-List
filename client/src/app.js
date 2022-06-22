@@ -9,7 +9,7 @@ import Auth from './utils/auth';
 
 import publicRoutes from './views';
 
-const httpLink = createHttpLink({ uri: '/graphql' });
+const httpLink = createHttpLink({ uri: '/api/graphql' });
 
 const authLink = setContext((_, { headers }) => {
   return { headers: { ...headers, JWT: Auth.jwtToken } };

@@ -1,14 +1,14 @@
 import passport from 'koa-passport';
 import SteamStrategy from 'passport-steam';
 
-import { HOST, STEAM_API_KEY } from 'scbl-lib/config';
+import { API_SERVER, STEAM_API_KEY } from 'scbl-lib/config';
 import { SteamUser } from 'scbl-lib/db/models';
 
 passport.use(
   new SteamStrategy(
     {
-      returnURL: HOST + '/login',
-      realm: HOST,
+      returnURL: API_SERVER + '/login',
+      realm: API_SERVER,
       apiKey: STEAM_API_KEY
     },
     async (_, profile, done) => {

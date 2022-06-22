@@ -90,6 +90,6 @@ export default function () {
     );
   }
 
-  window.location.href = '/auth/steam';
+  window.location.href = `/api/auth/steam`;
   return null;
 }
