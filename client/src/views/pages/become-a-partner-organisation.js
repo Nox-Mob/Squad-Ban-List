@@ -25,9 +25,9 @@ export default function () {
               <h5>Introduction to Partner Organisations</h5>
               <p>
                 Partner organisations are Squad communities that contribute ban information from
-                their server's ban lists to the Squad Ban List database. Any Squad
-                community can become a partner organisation providing they have an active Squad
-                server licensed by Offworld Industries.
+                their server's ban lists to the Squad Ban List database. Any Squad community can
+                become a partner organisation providing they have an active Squad server licensed by
+                Offworld Industries.
               </p>
               <p>
                 Becoming a partner organisation requires very little effort. We simply request the
@@ -45,9 +45,9 @@ export default function () {
               <p>
                 There are currently no benefits to being a partner organisation, however, everyone
                 benefits from our partner organisations as the more partner organisations that
-                contribute information on players the more effective the Squad Ban List
-                becomes in protecting the integrity of the Squad community so, please consider
-                contributing to thank others for their contributions.
+                contribute information on players the more effective the Squad Ban List becomes in
+                protecting the integrity of the Squad community so, please consider contributing to
+                thank others for their contributions.
               </p>
               <h5>Form</h5>
               <p>
@@ -88,8 +88,8 @@ export default function () {
               </p>
               <br />
               <p>
-                If you wish to stop contributing as a partner organisation, please contact MrBoolean who
-                can be found on our <a href={DISCORD_INVITE}>Discord</a>.
+                If you wish to stop contributing as a partner organisation, please contact MrBoolean
+                who can be found on our <a href={DISCORD_INVITE}>Discord</a>.
               </p>
             </CardBody>
           </Card>

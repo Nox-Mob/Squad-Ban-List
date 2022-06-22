@@ -26,9 +26,7 @@ class ExportBanList extends Sequelize.Model {
             name: `Squad Ban List - ${this.name} (ID: ${this.id})`,
             action: 'none',
             defaultIdentifiers: ['steamID'],
-            defaultReasons: [
-              'Banned by the Squad Ban List (squad-community-ban-list.com)'
-            ],
+            defaultReasons: ['Banned by the Squad Ban List (squadbanlist.com)'],
             defaultAutoAddEnabled: true
           },
           relationships: {

@@ -22,7 +22,6 @@ const STEAM_API_KEY = process.env.STEAM_API_KEY;
 // Other constants
 const DISCORD_INVITE = 'https://discord.gg/DnkPxJ2MTS';
 
-
 export {
   HOST,
   API_SERVER,
