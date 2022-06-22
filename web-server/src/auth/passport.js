@@ -20,10 +20,10 @@ passport.use(
             avatar: profile.photos[0].value,
             avatarMedium: profile.photos[1].value,
             avatarFull: profile.photos[2].value,
-            issblUser: true
+            isSBLUser: true
           }
         ],
-        { updateOnDuplicate: ['issblUser'] }
+        { updateOnDuplicate: ['isSBLUser'] }
       );
 
       return done(null, steamUsers[0]);
