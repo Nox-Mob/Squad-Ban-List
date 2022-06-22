@@ -41,7 +41,7 @@ export default function () {
                     harmful players.
                   </h1>
                   <p className="lead text-white">
-                    The Squad Community Ban List aims to protect the Squad community's integrity
+                    The Squad Ban List aims to protect the Squad community's integrity
                     through collaboration and information sharing.
                   </p>
                   <SteamUserSearchBox className="mt-5" frontpageVersion={true} />
@@ -240,7 +240,7 @@ export default function () {
               <Card className="shadow shadow-lg--hover my-5">
                 <CardBody>
                   <blockquote className="blockquote font-italic mb-0">
-                    "The Squad Community Ban List provides us with a valuable source of intel that
+                    "The Squad Ban List provides us with a valuable source of intel that
                     allows us to make more informed decisions when banning players from our server."
                   </blockquote>
                 </CardBody>
@@ -340,7 +340,7 @@ export default function () {
               <Card className="shadow shadow-lg--hover my-5">
                 <CardBody>
                   <blockquote className="blockquote font-italic mb-0">
-                    "Using the Squad Community Ban List allows our admins to spend more time
+                    "Using the Squad Ban List allows our admins to spend more time
                     enjoying the game and less time dealing with players trying to harm our server."
                   </blockquote>
                 </CardBody>
@@ -425,7 +425,7 @@ export default function () {
               <Card className="shadow shadow-lg--hover my-5">
                 <CardBody>
                   <blockquote className="blockquote font-italic mb-0">
-                    "Contributing to the Squad Community Ban List is easy and we're happy to know
+                    "Contributing to the Squad Ban List is easy and we're happy to know
                     that our contributions are helping to protect the wider Squad community."
                   </blockquote>
                 </CardBody>
@@ -452,7 +452,7 @@ export default function () {
             <Col xs="12">
               <h2 className="display-3">Our Principles</h2>
               <p className="lead">
-                The Squad Community Ban List aims to protect the Squad community's integrity through
+                The Squad Ban List aims to protect the Squad community's integrity through
                 collaboration and information sharing, however, whilst doing this we follow the
                 following principles.
               </p>

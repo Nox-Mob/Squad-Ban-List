@@ -221,7 +221,7 @@ export default function (props) {
                           delay={0}
                           target="tooltip-reason-active"
                         >
-                          The ban reasons shown on the Squad Community Ban List are based on
+                          The ban reasons shown on the Squad Ban List are based on
                           keywords found in the reason and notes listed on partner organisations'
                           ban lists. We cannot guarantee that the reasons displayed reflect the true
                           reason for the ban. Please see our FAQ for more information.
@@ -238,7 +238,7 @@ export default function (props) {
                           delay={0}
                           target="tooltip-time-active"
                         >
-                          The ban times shown on the Squad Community Ban List are based on the dates
+                          The ban times shown on the Squad Ban List are based on the dates
                           listed on partner organisations' ban lists. In the case of remote ban
                           lists, where ban creation dates are not documented, the time shown is the
                           time when we first imported the ban.
@@ -297,7 +297,7 @@ export default function (props) {
                           delay={0}
                           target="tooltip-reason-expired"
                         >
-                          The ban reasons shown on the Squad Community Ban List are based on
+                          The ban reasons shown on the Squad Ban List are based on
                           keywords found in the reason and notes supplied by contributing servers.
                           We cannot guarantee that the reasons displayed reflect the true reason for
                           the ban. Please see our FAQ for more information.
@@ -314,7 +314,7 @@ export default function (props) {
                           delay={0}
                           target="tooltip-time-expired"
                         >
-                          The ban times shown on the Squad Community Ban List are based on the dates
+                          The ban times shown on the Squad Ban List are based on the dates
                           listed on partner organisations' ban lists. In the case of remote ban
                           lists, where ban creation dates are not documented, the time shown is the
                           time when we first imported the ban.
@@ -358,7 +358,7 @@ export default function (props) {
                     <strong>Disclaimer</strong>
                     <br />
                     The ban information contained on this page has been imported from the ban lists
-                    of our partner organisations. The Squad Community Ban List has{' '}
+                    of our partner organisations. The Squad Ban List has{' '}
                     <strong>not</strong> modified any of this information, other than where
                     explicitly stated, or made any judgement of the validity of the bans. For more
                     information on how to get unlisted from/unbanned by the Squad Community Ban
