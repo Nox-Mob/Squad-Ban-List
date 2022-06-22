@@ -1,5 +1,5 @@
-import { Op } from 'scbl-lib/db/sequelize';
-import { Ban, BanList, Organisation, SteamUser } from 'scbl-lib/db/models';
+import { Op } from 'sbl-lib/db/sequelize';
+import { Ban, BanList, Organisation, SteamUser } from 'sbl-lib/db/models';
 
 export default {
   Query: {

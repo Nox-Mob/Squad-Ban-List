@@ -1,6 +1,6 @@
-import { Ban, ExportBanList } from 'scbl-lib/db/models';
+import { Ban, ExportBanList } from 'sbl-lib/db/models';
 
-import { calculateRiskRating } from 'scbl-lib/utils';
+import { calculateRiskRating } from 'sbl-lib/utils';
 
 export default {
   SteamUser: {

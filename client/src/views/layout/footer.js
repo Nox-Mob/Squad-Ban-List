@@ -10,7 +10,7 @@ import {
   Col,
   UncontrolledTooltip
 } from 'reactstrap';
-import { DISCORD_INVITE } from 'scbl-lib/config.js';
+import { DISCORD_INVITE } from 'sbl-lib/config.js';
 
 export default function () {
   return (
@@ -72,7 +72,7 @@ export default function () {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    SCBL on GitHub
+                    sbl on GitHub
                   </NavLink>
                 </NavItem>
                 <NavItem>

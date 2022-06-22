@@ -1,7 +1,7 @@
 import ApolloServerKoa from 'apollo-server-koa';
 import jwt from 'jsonwebtoken';
 
-import { JWT_AUTH } from 'scbl-lib/config';
+import { JWT_AUTH } from 'sbl-lib/config';
 
 import typeDefs from './typedefs.js';
 import resolvers from './resolvers.js';

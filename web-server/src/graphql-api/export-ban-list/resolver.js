@@ -1,4 +1,4 @@
-import { ExportBanListConfig } from 'scbl-lib/db/models';
+import { ExportBanListConfig } from 'sbl-lib/db/models';
 
 export default {
   ExportBanList: {

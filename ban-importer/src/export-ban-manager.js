@@ -1,7 +1,7 @@
-import { sequelize } from 'scbl-lib/db';
-import { ExportBan, SteamUser } from 'scbl-lib/db/models';
-import { Op, QueryTypes, Transaction } from 'scbl-lib/db/sequelize';
-import { Logger } from 'scbl-lib/utils';
+import { sequelize } from 'sbl-lib/db';
+import { ExportBan, SteamUser } from 'sbl-lib/db/models';
+import { Op, QueryTypes, Transaction } from 'sbl-lib/db/sequelize';
+import { Logger } from 'sbl-lib/utils';
 
 const UPDATE_BATCH_SIZE = process.env.UPDATE_EXPORT_BANS_BATCH_SIZE || 100;
 

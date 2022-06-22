@@ -1,4 +1,4 @@
-import { BanList } from 'scbl-lib/db/models';
+import { BanList } from 'sbl-lib/db/models';
 
 export default {
   Organisation: {

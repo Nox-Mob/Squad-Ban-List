@@ -1,5 +1,5 @@
-import { BanList, ExportBanList, ExportBanListConfig } from 'scbl-lib/db/models';
-import { testDiscordWebhook } from 'scbl-lib/utils';
+import { BanList, ExportBanList, ExportBanListConfig } from 'sbl-lib/db/models';
+import { testDiscordWebhook } from 'sbl-lib/utils';
 
 export default {
   Mutation: {

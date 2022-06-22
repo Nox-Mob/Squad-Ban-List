@@ -15,7 +15,7 @@ import {
   Row
 } from 'reactstrap';
 
-import Validators from 'scbl-lib/validators';
+import Validators from 'sbl-lib/validators';
 
 import { BanListSelector } from '../';
 

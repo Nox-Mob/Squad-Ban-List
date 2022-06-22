@@ -1,5 +1,5 @@
 {
-  "name": "scbl-lib",
+  "name": "sbl-lib",
   "version": "1.0.0",
   "description": "Shared classes, functions, utils, etc.",
   "type": "module",

@@ -1,4 +1,4 @@
-import { BanList, SteamUser } from 'scbl-lib/db/models';
+import { BanList, SteamUser } from 'sbl-lib/db/models';
 
 export default {
   Ban: {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardBody, Container } from 'reactstrap';
 
-import { DISCORD_INVITE } from 'scbl-lib/config';
+import { DISCORD_INVITE } from 'sbl-lib/config';
 
 import Layout from '../layout/layout.js';
 

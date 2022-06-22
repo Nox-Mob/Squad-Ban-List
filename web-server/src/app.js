@@ -15,7 +15,7 @@ import { passport, routes as routesAuth } from './auth/index.js';
 import ApolloServer from './graphql-api/index.js';
 import ExportBanLists from './export-ban-lists.js';
 
-import { sequelize } from 'scbl-lib/db';
+import { sequelize } from 'sbl-lib/db';
 
 const inProduction = process.env.NODE_ENV;
 
@@ -62,7 +62,7 @@ if (inProduction) {
   });
 
   router.get('/favicon.png', async (ctx) => {
-    ctx.body = fs.readFileSync(path.resolve('./assets/scbl-logo-square.png'));
+    ctx.body = fs.readFileSync(path.resolve('./assets/sbl-logo-square.png'));
   });
 
   router.get('*', async (ctx) => {

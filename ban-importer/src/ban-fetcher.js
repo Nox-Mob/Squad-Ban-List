@@ -1,8 +1,8 @@
 import axios from 'axios';
 import querystring from 'querystring';
 
-import { battlemetrics } from 'scbl-lib/apis';
-import { classifyBanReason, Logger } from 'scbl-lib/utils';
+import { battlemetrics } from 'sbl-lib/apis';
+import { classifyBanReason, Logger } from 'sbl-lib/utils';
 
 export default class BanFetcher {
   constructor(storeBanFunc) {

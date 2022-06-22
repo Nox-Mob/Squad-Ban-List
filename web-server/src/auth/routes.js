@@ -1,7 +1,7 @@
 import Router from 'koa-router';
 import jwt from 'jsonwebtoken';
 
-import { JWT_AUTH } from 'scbl-lib/config';
+import { JWT_AUTH } from 'sbl-lib/config';
 
 import passport from './passport.js';
 

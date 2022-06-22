@@ -1,6 +1,6 @@
 import Router from 'koa-router';
 
-import { ExportBan } from 'scbl-lib/db/models';
+import { ExportBan } from 'sbl-lib/db/models';
 
 const router = new Router();
 

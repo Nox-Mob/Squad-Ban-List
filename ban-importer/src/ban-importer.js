@@ -1,8 +1,8 @@
 import async from 'async';
 
-import { Ban, BanList, SteamUser } from 'scbl-lib/db/models';
-import { Op } from 'scbl-lib/db/sequelize';
-import { Logger } from 'scbl-lib/utils';
+import { Ban, BanList, SteamUser } from 'sbl-lib/db/models';
+import { Op } from 'sbl-lib/db/sequelize';
+import { Logger } from 'sbl-lib/utils';
 
 import BanFetcher from './ban-fetcher.js';
 

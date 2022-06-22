@@ -1,9 +1,9 @@
-import { steam } from 'scbl-lib/apis';
-import { sequelize } from 'scbl-lib/db';
-import { ExportBan, ExportBanList, SteamUser } from 'scbl-lib/db/models';
-import { Op } from 'scbl-lib/db/sequelize';
-import { createDiscordWebhookMessage, Logger } from 'scbl-lib/utils';
-import { API_SERVER } from 'scbl-lib/config';
+import { steam } from 'sbl-lib/apis';
+import { sequelize } from 'sbl-lib/db';
+import { ExportBan, ExportBanList, SteamUser } from 'sbl-lib/db/models';
+import { Op } from 'sbl-lib/db/sequelize';
+import { createDiscordWebhookMessage, Logger } from 'sbl-lib/utils';
+import { API_SERVER } from 'sbl-lib/config';
 
 const UPDATE_STEAM_USER_INFO_REFRESH_INTERVAL = 7 * 24 * 60 * 60 * 1000;
 const UPDATE_STEAM_USER_INFO_BATCH_SIZE = 10;

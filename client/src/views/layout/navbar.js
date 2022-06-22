@@ -22,12 +22,12 @@ import {
   UncontrolledTooltip
 } from 'reactstrap';
 
-import { DISCORD_INVITE } from 'scbl-lib/config';
+import { DISCORD_INVITE } from 'sbl-lib/config';
 
 import Auth from '../../utils/auth.js';
 
-import logo from '../../assets/img/brand/scbl-logo.png';
-import logoDark from '../../assets/img/brand/scbl-logo-dark.png';
+import logo from '../../assets/img/brand/sbl-logo.png';
+import logoDark from '../../assets/img/brand/sbl-logo-dark.png';
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -62,7 +62,7 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                <img alt="SCBL Logo" src={logo} />
+                <img alt="sbl Logo" src={logo} />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar">
                 <span className="navbar-toggler-icon" />

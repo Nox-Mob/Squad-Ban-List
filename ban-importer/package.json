@@ -6,6 +6,6 @@
   "dependencies": {
     "async": "^3.2.0",
     "axios": "^0.21.1",
-    "scbl-lib": "1.0.0"
+    "sbl-lib": "1.0.0"
   }
 }

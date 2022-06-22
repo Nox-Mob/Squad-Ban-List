@@ -4,7 +4,7 @@ import md5 from 'md5';
 
 import { Card, CardBody, Container } from 'reactstrap';
 
-import { DISCORD_INVITE } from 'scbl-lib/config';
+import { DISCORD_INVITE } from 'sbl-lib/config';
 
 import Layout from '../layout/layout.js';
 

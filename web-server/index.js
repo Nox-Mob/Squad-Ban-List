@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { connect } from 'scbl-lib/db';
+import { connect } from 'sbl-lib/db';
 
 import server from './src/app.js';
 

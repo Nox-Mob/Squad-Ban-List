@@ -2,7 +2,7 @@ import jwtDecode from 'jwt-decode';
 
 import httpClient from './http-client';
 
-import { LOCALSTORAGE_VERSION } from 'scbl-lib/config';
+import { LOCALSTORAGE_VERSION } from 'sbl-lib/config';
 
 class Auth {
   constructor() {

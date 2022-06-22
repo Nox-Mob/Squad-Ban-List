@@ -1,8 +1,8 @@
 import passport from 'koa-passport';
 import SteamStrategy from 'passport-steam';
 
-import { API_SERVER, STEAM_API_KEY } from 'scbl-lib/config';
-import { SteamUser } from 'scbl-lib/db/models';
+import { API_SERVER, STEAM_API_KEY } from 'sbl-lib/config';
+import { SteamUser } from 'sbl-lib/db/models';
 
 passport.use(
   new SteamStrategy(
@@ -20,10 +20,10 @@ passport.use(
             avatar: profile.photos[0].value,
             avatarMedium: profile.photos[1].value,
             avatarFull: profile.photos[2].value,
-            isSCBLUser: true
+            issblUser: true
           }
         ],
-        { updateOnDuplicate: ['isSCBLUser'] }
+        { updateOnDuplicate: ['issblUser'] }
       );
 
       return done(null, steamUsers[0]);
