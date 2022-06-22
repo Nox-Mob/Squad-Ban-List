@@ -20,8 +20,8 @@ const sections = [
             community's integrity through collaboration and information sharing. It does this by
             importing ban information from various popular Squad servers, known as our partner
             organisations, into a database and providing functionality to search and export the data
-            or aggregations of the data in a number of different formats. The project is lead by
-            Tommy but its development has been contributed to by other members of the community. The
+            or aggregations of the data in a number of different formats. The project is currently lead by
+            MrBoolean but its development was originally done by Tommy and other members of the community. The
             project is not affiliated with Offworld Industries.
           </>
         )

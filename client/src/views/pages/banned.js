@@ -446,7 +446,7 @@ function ReportPartnerOrganisations(props) {
           <p>
             Our system has methods to prevent a single partner organisation abusing our system to
             ban you from other servers. However, if you believe that a partner organisation has
-            found a way to abuse the system you may report your concerns to Tommy, our project lead,
+            found a way to abuse the system you may report your concerns to MrBoolean, our project lead,
             who can be found via our <a href={DISCORD_INVITE}>Discord</a>.
           </p>
         </Col>

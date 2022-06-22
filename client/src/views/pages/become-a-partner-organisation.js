@@ -52,7 +52,7 @@ export default function () {
               <h5>Form</h5>
               <p>
                 If you are interested in becoming a partner organisation, please provide the
-                following information via direct message to Tommy who can be found on our{' '}
+                following information via direct message to MrBoolean who can be found on our{' '}
                 <a href={DISCORD_INVITE}>Discord</a>:
               </p>
               <pre>
@@ -88,7 +88,7 @@ export default function () {
               </p>
               <br />
               <p>
-                If you wish to stop contributing as a partner organisation, please contact Tommy who
+                If you wish to stop contributing as a partner organisation, please contact MrBoolean who
                 can be found on our <a href={DISCORD_INVITE}>Discord</a>.
               </p>
             </CardBody>
